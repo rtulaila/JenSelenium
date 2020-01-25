@@ -22,6 +22,7 @@ public class MyTestNGTestcase {
 	
   @Test
   public void verifyHomepageTitle() {
+	  System.out.println("Verify Home Page");
 	  String expectedTitle = "Google";
 	  String actualTitle = driver.getTitle();
 	  Assert.assertEquals(actualTitle, expectedTitle);
