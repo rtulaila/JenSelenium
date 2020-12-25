@@ -9,7 +9,8 @@ import org.testng.annotations.*;
 public class MyTestNGTestcase {
 	
 	public String baseUrl = "https://www.google.ca/";
-	String driverPath = "C:\\Users\\Ramesh\\Documents\\Automation\\Drivers\\chromedriver.exe";
+	String driverPath = "C:\\Users\\Ramesh\\Downloads\\chromedriver\\chromedriver.exe";
+	
 	public WebDriver driver;
 	
 	@BeforeTest
